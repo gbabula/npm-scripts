@@ -1,6 +1,6 @@
 # npm-scripts
 
-Collection of useful NPM scripts.
+Collection of useful NPM scripts. 
 
 ---
 
@@ -14,6 +14,16 @@ Why add another layer of complexity to your application if you can accomplish th
 
 ## Scripts
 
+### Serve
+
+| Command            | Dependency                                                | Description              |
+|:-------------------|:-----------|:---------------------------------------------|:-------------------------|
+| `serve`            | [http-server](https://www.npmjs.com/package/http-server)  | Starts up server with cache disabled on localhost:9966 |
+
+```json
+"serve": "http-server -c-1 -p 9966"
+```
+
 ### Compress Images
 
 | Command            | Dependency                                         | Description              |
@@ -23,6 +33,13 @@ Why add another layer of complexity to your application if you can accomplish th
 ```json
 "compress-images": "imagemin --progressive src/images/* src/images/build"
 ```
+
+
+
+
+
+
+
 
 ---
 
