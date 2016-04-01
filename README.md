@@ -6,9 +6,8 @@ Collection of useful NPM scripts.
 
 ## About
 
-I ditched [Gulp](http://gulpjs.com/)/[Grunt](http://gruntjs.com/) a few years ago and never looked back. 
-
-Why add another layer of complexity to your application if you can accomplish the same thing in a simpler fashion? These are based on some useful/simple scripts I use in most of my projects, if you want to easily try some of these out - take a look at  [g5-component.js](https://github.com/MajorLeagueBaseball/g5-component)
+Based on some useful/simple scripts I use in most of my projects, 
+if you want to easily try some of these out - take a look at [g5-component.js](https://github.com/MajorLeagueBaseball/g5-component)
 
 ---
 
