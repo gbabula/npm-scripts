@@ -69,6 +69,10 @@ Dependency                                                  | Description       
 * If there is a `server.js` file in the root of your package, then npm will default the `start` command to `node server.js`.
 * If there is a `binding.gyp` file in the root of your package, npm will default the `install` command to compile using node-gyp.
 
-## Reference
+## Reference / Further Reading
 
+* [npm scripts docs](https://docs.npmjs.com/misc/scripts)
 * [task automation with npm run](http://substack.net/task_automation_with_npm_run)
+* [why npm scripts](https://css-tricks.com/why-npm-scripts/)
+* [how to use npm as a build tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
+* [command-line utilities with Node.js](http://cruft.io/posts/node-command-line-utilities/)
