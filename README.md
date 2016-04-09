@@ -25,6 +25,10 @@ Dependency                                                  | Description       
 | [jshint](https://www.npmjs.com/package/jshint) | detect errors and potential problems in JavaScript code |
 
 ```json
+"prelint": "echo 'Checking code via JSHint...'"
+```
+
+```json
 "lint": "jshint src/scripts/ || true"
 ```
 
@@ -72,7 +76,7 @@ Dependency                                                  | Description       
 
 ## Notes
 
-* Install packages as `devDependencies` _(i.e._ `npm i --save-dev jshint`_)_
+* Install packages as `devDependencies` _(i.e._ `npm i --save-dev jshint`_)_ or globally _(i.e._ `npm i -g jshint` _)_
 
 ## Defaults
 
