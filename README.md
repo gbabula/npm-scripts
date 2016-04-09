@@ -48,6 +48,16 @@ Dependency                                                  | Description       
 "minify-css": "cleancss --source-map -d -o src/static/g5-component-min.css src/static/g5-component.css"
 ```
 
+### GZip CSS
+
+| Dependency                                         | Description              |
+|:-----------|:--------------------------------------|:-------------------------|
+|  | Gzip via the built in compress tool in Linux/Unix based OS |
+
+```json
+"gzip-css": "gzip -c -f -9 src/static/g5-component-min.css > src/static/g5-component-min.css.gz"
+```
+
 ### Prefix CSS
 
 | Dependency                                         | Description              |
