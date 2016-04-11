@@ -1,6 +1,6 @@
 # npm-scripts
 
-Collection of NPM scripts, based on some useful and/or simple scripts I use in most of my projects.
+Collection of NPM scripts, based on some useful and simple scripts I use in most of my projects.
 
 If you want to easily try some of these out - take a look at [g5-component.js](https://github.com/MajorLeagueBaseball/g5-component)
 
