@@ -12,7 +12,7 @@ If you want to easily try some of these out - take a look at [g5-component.js](h
 
 Dependency                                                  | Description              |
 |:-----------|:---------------------------------------------|:-------------------------|
-| [http-server](https://www.npmjs.com/package/http-server)  | starts up server with cache disabled `-c-1` on `-p` localhost:9966 |
+| [http-server](https://www.npmjs.com/package/http-server) | starts up server with cache disabled `-c-1` on `-p` localhost:9966 |
 
 ```json
 "serve": "http-server -c-1 -p 9966"
@@ -30,6 +30,16 @@ Dependency                                                  | Description       
 
 ```json
 "lint": "jshint src/scripts/ || true"
+```
+
+### Test
+
+Dependency                                                  | Description              |
+|:-----------|:---------------------------------------------|:-------------------------|
+| [babel-tape-runner](https://www.npmjs.com/package/babel-tape-runner) | [Babel](https://babeljs.io/) + [Tape](https://github.com/substack/tape) for running your ES Next tests |
+
+```json
+"test": "babel-tape-runner test/*.js | tap-spec"
 ```
 
 ### Compress Images
@@ -87,6 +97,7 @@ Dependency                                                  | Description       
 ## Notes
 
 * Install packages as `devDependencies` _(i.e._ `npm i --save-dev jshint`_)_ or globally _(i.e._ `npm i -g jshint` _)_
+* Pre and post commands with matching names will be run for those as well _(i.e._ `prelint`, `postlint`_)_
 
 ## Defaults
 
