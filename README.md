@@ -42,6 +42,16 @@ Dependency                                                  | Description       
 "compress-images": "imagemin --progressive src/images/* src/images/build"
 ```
 
+### Build LESS
+
+| Dependency                                         | Description              |
+|:-----------|:--------------------------------------|:-------------------------|
+| [less](https://www.npmjs.com/package/less) | Compile LESS to CSS |
+
+```json
+"build-less": "lessc src/styles/component.less > src/static/g5-component.css"
+```
+
 ### Minify CSS
 
 | Dependency                                         | Description              |
